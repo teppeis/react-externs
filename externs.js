@@ -485,6 +485,14 @@ React.DOM.b = function(props, children) {};
  * @return {React.ReactComponent}
  * @protected
  */
+React.DOM.blockquote = function(props, children) {};
+
+/**
+ * @param {Object=} props
+ * @param {...React.ChildrenArgument} children
+ * @return {React.ReactComponent}
+ * @protected
+ */
 React.DOM.body = function(props, children) {};
 
 /**
