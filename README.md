@@ -1,7 +1,7 @@
 react-externs
 =============
 
-Closure Compiler externs for Facebook React.js
+Google Closure Compiler externs for Facebook React.js
 
 ## How to use it with Bower
 
