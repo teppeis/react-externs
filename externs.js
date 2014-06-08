@@ -255,6 +255,44 @@ React.ReactAtrribute.key;
  */
 React.ReactAtrribute.ref;
 
+// Attributes not defined in default Closure Compiler DOM externs.
+// http://facebook.github.io/react/docs/tags-and-attributes.html#html-attributes
+// It happens because React favors camelCasing over allinlowercase.
+// How to update list:
+//   1) Open http://facebook.github.io/react/docs/tags-and-attributes.html#html-attributes
+//   2) Github Search in google/closure-compiler for attribute.
+
+/**
+ * @type {boolean}
+ */
+React.ReactAtrribute.allowFullScreen;
+
+/**
+ * @type {boolean}
+ */
+React.ReactAtrribute.autoComplete;
+
+/**
+ * @type {boolean}
+ */
+React.ReactAtrribute.autoFocus;
+
+/**
+ * @type {boolean}
+ */
+React.ReactAtrribute.autoPlay;
+
+/**
+ * @type {boolean}
+ */
+React.ReactAtrribute.noValidate;
+
+/**
+ * @type {boolean}
+ */
+React.ReactAtrribute.spellCheck;
+
+
 // http://facebook.github.io/react/docs/events.html
 
 /**
