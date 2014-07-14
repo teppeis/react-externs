@@ -163,6 +163,11 @@ React.ReactComponent.prototype.transferPropsTo = function(targetComponent) {};
 React.ReactComponent.prototype.forceUpdate = function(callback) {};
 
 /**
+ * @return {boolean}
+ */
+React.ReactComponent.prototype.isMounted = function(callback) {};
+
+/**
  * @param {Object} nextState
  * @param {Function=} callback
  */
