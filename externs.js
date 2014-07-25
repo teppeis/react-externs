@@ -23,9 +23,9 @@ React.initializeTouchEvents = function(shouldUseTouch) {};
 /**
  * @param {Object} specification
  * @return {function(
-      Object=,
-      (string|React.ReactComponent|Array.<React.ReactComponent>)=
-    ): React.ReactComponent}
+ *   Object=,
+ *   ...[React.ChildrenArgument]
+ * ): React.ReactComponent}
  */
 React.createClass = function(specification) {};
 
