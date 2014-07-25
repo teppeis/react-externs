@@ -1,5 +1,5 @@
 /**
- * @fileoverview Closure Compiler externs for Facebook React.js 0.10.0.
+ * @fileoverview Closure Compiler externs for Facebook React.js 0.11.0.
  * @see http://reactjs.org
  * @externs
  */
