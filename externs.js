@@ -1404,7 +1404,7 @@ React.Children;
 
 /**
  * @param {Object} children Children tree container.
- * @param {function(*, int)} mapFunction.
+ * @param {function(*, number)} mapFunction
  * @param {*} mapContext Context for mapFunction.
  * @return {Object|undefined} Object containing the ordered map of results.
  */
@@ -1412,7 +1412,7 @@ React.Children.map;
 
 /**
  * @param {Object} children Children tree container.
- * @param {function(*, int)} mapFunction.
+ * @param {function(*, number)} mapFunction
  * @param {*} mapContext Context for mapFunction.
  */
 React.Children.forEach;
