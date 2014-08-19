@@ -1422,3 +1422,14 @@ React.Children.forEach;
  * @return {Object|undefined}
  */
 React.Children.only;
+
+/**
+ * @type {Object}
+ */
+React.addons;
+
+/**
+ * @param {Object} object
+ * @return {string}
+ */
+React.addons.classSet;
