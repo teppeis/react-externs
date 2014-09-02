@@ -1376,7 +1376,7 @@ React.DOM.textarea = function(props, children) {};
  * @return {React.ReactComponent}
  * @protected
  */
-React.DOM.tfood = function(props, children) {};
+React.DOM.tfoot = function(props, children) {};
 
 /**
  * @param {Object=} props
