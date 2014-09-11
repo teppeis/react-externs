@@ -165,7 +165,7 @@ React.ReactComponent.prototype.forceUpdate = function(callback) {};
 /**
  * @return {boolean}
  */
-React.ReactComponent.prototype.isMounted = function(callback) {};
+React.ReactComponent.prototype.isMounted = function() {};
 
 /**
  * @param {Object} nextState
