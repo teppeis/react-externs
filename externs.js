@@ -40,8 +40,18 @@ React.isValidClass = function(componentClass) {};
  * @param {Element} mountPoint
  * @param {Function=} callback
  * @return {React.ReactComponent}
+ * @deprecated
  */
 React.renderComponent = function(container, mountPoint, callback) {};
+
+/**
+ * @param {React.ReactComponent} container
+ * @param {Element} mountPoint
+ * @param {Function=} callback
+ * @return {React.ReactComponent}
+ */
+React.render = function(container, mountPoint, callback) {};
+
 
 /**
  * @param {Element} container
@@ -51,6 +61,7 @@ React.unmountComponentAtNode = function(container) {};
 /**
  * @param {React.ReactComponent} component
  * @return {string}
+ * @deprecated
  */
 React.renderComponentToString = function(component) {};
 
@@ -58,7 +69,20 @@ React.renderComponentToString = function(component) {};
  * @param {React.ReactComponent} component
  * @return {string}
  */
+React.renderToString = function(component) {};
+
+/**
+ * @param {React.ReactComponent} component
+ * @return {string}
+ * @deprecated
+ */
 React.renderComponentToStaticMarkup = function(component) {};
+
+/**
+ * @param {React.ReactComponent} component
+ * @return {string}
+ */
+React.renderToStaticMarkup = function(component) {};
 
 /**
  * Constructs a component instance of `constructor` with `initialProps` and
@@ -80,7 +104,8 @@ React.constructAndRenderComponent = function(constructor, props, container) {};
  * @param {string} id ID of the DOM element to render into.
  * @return {React.ReactComponent} Component instance rendered in the container node.
  */
-React.constructAndRenderComponentByID = function(componentConstructor, props, id) {};
+React.constructAndRenderComponentByID = function(componentConstructor, props,
+  id) {};
 
 /**
  * @interface
@@ -1504,33 +1529,33 @@ React.ChainableTypeChecker.isRequired.weak;
  */
 React.PropTypes = {
   /** @type {React.ChainableTypeChecker} */
-  any: function () {},
+  any: function() {},
   /** @type {React.ChainableTypeChecker} */
-  array: function () {},
+  array: function() {},
   /** @type {React.ChainableTypeChecker} */
-  arrayOf: function () {},
+  arrayOf: function() {},
   /** @type {React.ChainableTypeChecker} */
-  "boolean": function () {},
+  "boolean": function() {},
   /** @type {React.ChainableTypeChecker} */
-  component: function () {},
+  component: function() {},
   /** @type {React.ChainableTypeChecker} */
-  func: function () {},
+  func: function() {},
   /** @type {React.ChainableTypeChecker} */
-  number: function () {},
+  number: function() {},
   /** @type {React.ChainableTypeChecker} */
-  object: function () {},
+  object: function() {},
   /** @type {React.ChainableTypeChecker} */
-  string: function () {},
+  string: function() {},
   /** @type {React.ChainableTypeChecker} */
-  oneOf: function () {},
+  oneOf: function() {},
   /** @type {React.ChainableTypeChecker} */
-  oneOfType: function () {},
+  oneOfType: function() {},
   /** @type {React.ChainableTypeChecker} */
-  instanceOf: function () {},
+  instanceOf: function() {},
   /** @type {React.ChainableTypeChecker} */
-  renderable: function () {},
+  renderable: function() {},
   /** @type {React.ChainableTypeChecker} */
-  shape: function () {}
+  shape: function() {}
 };
 
 /**
