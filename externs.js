@@ -1,5 +1,5 @@
 /**
- * @fileoverview Closure Compiler externs for Facebook React.js 0.11.0.
+ * @fileoverview Closure Compiler externs for Facebook React.js 0.12.0.
  * @see http://reactjs.org
  * @externs
  */
@@ -26,8 +26,15 @@ React.createFactory = function(reactClass) {};
 /**
  * @param {*} componentClass
  * @return {boolean}
+ * @deprecated
  */
 React.isValidClass = function(componentClass) {};
+
+/**
+ * @param {?Object} object
+ * @return {boolean} True if `object` is a valid component.
+ */
+React.isValidElement = function(object) {};
 
 /**
  * @param {React.ReactComponent} container
