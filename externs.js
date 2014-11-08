@@ -1614,7 +1614,8 @@ React.Children.only;
 React.addons;
 
 /**
- * @param {Object} object
+ * @param {Object|string} objectOrClassName
+ * @param {...string} classNames
  * @return {string}
  */
 React.addons.classSet;
