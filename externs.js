@@ -1533,8 +1533,11 @@ React.PropTypes = {
   any: function() {},
   /** @type {React.ChainableTypeChecker} */
   array: function() {},
-  /** @type {React.ChainableTypeChecker} */
-  arrayOf: function() {},
+  /**
+   * @param {React.ChainableTypeChecker} typeChecker
+   * @return {React.ChainableTypeChecker}
+   */
+  arrayOf: function(typeChecker) {},
   /** @type {React.ChainableTypeChecker} */
   "boolean": function() {},
   /** @type {React.ChainableTypeChecker} */
@@ -1542,21 +1545,41 @@ React.PropTypes = {
   /** @type {React.ChainableTypeChecker} */
   func: function() {},
   /** @type {React.ChainableTypeChecker} */
+  node: function() {},
+  /** @type {React.ChainableTypeChecker} */
   number: function() {},
   /** @type {React.ChainableTypeChecker} */
   object: function() {},
+  /**
+   * @param {React.ChainableTypeChecker} typeChecker
+   * @return {React.ChainableTypeChecker}
+   */
+  objectOf: function(typeChecker) {},
   /** @type {React.ChainableTypeChecker} */
   string: function() {},
-  /** @type {React.ChainableTypeChecker} */
-  oneOf: function() {},
-  /** @type {React.ChainableTypeChecker} */
+  /**
+   * @param {Array.<*>} expectedValues
+   * @return {React.ChainableTypeChecker}
+   */
+  oneOf: function(expectedValues) {},
+  /**
+   * @param {Array.<React.ChainableTypeChecker>} typeCheckers
+   * @return {React.ChainableTypeChecker}
+   */
   oneOfType: function() {},
-  /** @type {React.ChainableTypeChecker} */
-  instanceOf: function() {},
+  /**
+   * @param {function (new:Object): ?} expectedClass
+   * @return {React.ChainableTypeChecker}
+   */
+  instanceOf: function(expectedClass) {},
   /** @type {React.ChainableTypeChecker} */
   renderable: function() {},
   /** @type {React.ChainableTypeChecker} */
-  shape: function() {}
+  /**
+   * @param {Object.<React.ChainableTypeChecker>} shapeTypes
+   * @return {React.ChainableTypeChecker}
+   */
+  shape: function(shapeTypes) {}
 };
 
 /**
