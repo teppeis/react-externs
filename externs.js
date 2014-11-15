@@ -146,6 +146,11 @@ React.ReactComponent.prototype.propTypes;
 React.ReactComponent.prototype.contextTypes;
 
 /**
+ * @type {Object}
+ */
+React.ReactComponent.prototype.mixins;
+
+/**
  * @param {Object} nextProps
  * @param {Function=} callback
  */
