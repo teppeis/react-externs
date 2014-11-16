@@ -1571,7 +1571,7 @@ React.PropTypes = {
    * @param {Array.<React.ChainableTypeChecker>} typeCheckers
    * @return {React.ChainableTypeChecker}
    */
-  oneOfType: function() {},
+  oneOfType: function(typeCheckers) {},
   /**
    * @param {function (new:Object): ?} expectedClass
    * @return {React.ChainableTypeChecker}
