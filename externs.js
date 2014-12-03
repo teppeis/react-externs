@@ -1544,7 +1544,7 @@ React.PropTypes = {
    */
   arrayOf: function(typeChecker) {},
   /** @type {React.ChainableTypeChecker} */
-  "boolean": function() {},
+  bool: function() {},
   /** @type {React.ChainableTypeChecker} */
   component: function() {},
   /** @type {React.ChainableTypeChecker} */
