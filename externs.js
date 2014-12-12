@@ -1624,3 +1624,45 @@ React.addons;
  * @return {string}
  */
 React.addons.classSet;
+
+/**
+ * @type {Object}
+ */
+React.addons.Perf;
+
+React.addons.Perf.start = function() {};
+
+React.addons.Perf.stop = function() {};
+
+/**
+ * @return {Array.<React.addons.Pref.Measurement>}
+ */
+React.addons.Perf.getLastMeasurements = function() {};
+
+/**
+ * @param {React.addons.Pref.Measurement=} measurements
+ */
+React.addons.Perf.printExclusive = function(measurements) {};
+
+/**
+ * @param {React.addons.Pref.Measurement=} measurements
+ */
+React.addons.Perf.printInclusive = function(measurements) {};
+
+/**
+ * @param {React.addons.Pref.Measurement=} measurements
+ */
+React.addons.Perf.printWasted = function(measurements) {};
+
+/**
+ * @typedef {{
+ *     exclusive: Object.<string, number>,
+ *     inclusive: Object.<string, number>,
+ *     render: Object.<string, number>,
+ *     counts: Object.<string, number>,
+ *     writes: Object.<string, {type: string, time: number, args: Array}>,
+ *     displayNames: Object.<string, {current: string, owner: string}>,
+ *     totalTime: number
+ * }}
+ */
+React.addons.Perf.Measurement;
