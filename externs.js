@@ -1635,22 +1635,22 @@ React.addons.Perf.start = function() {};
 React.addons.Perf.stop = function() {};
 
 /**
- * @return {Array.<React.addons.Pref.Measurement>}
+ * @return {Array.<React.addons.Perf.Measurement>}
  */
 React.addons.Perf.getLastMeasurements = function() {};
 
 /**
- * @param {React.addons.Pref.Measurement=} measurements
+ * @param {React.addons.Perf.Measurement=} measurements
  */
 React.addons.Perf.printExclusive = function(measurements) {};
 
 /**
- * @param {React.addons.Pref.Measurement=} measurements
+ * @param {React.addons.Perf.Measurement=} measurements
  */
 React.addons.Perf.printInclusive = function(measurements) {};
 
 /**
- * @param {React.addons.Pref.Measurement=} measurements
+ * @param {React.addons.Perf.Measurement=} measurements
  */
 React.addons.Perf.printWasted = function(measurements) {};
 
