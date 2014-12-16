@@ -1595,7 +1595,7 @@ React.Children;
 /**
  * @param {Object} children Children tree container.
  * @param {function(*, number)} mapFunction
- * @param {*} mapContext Context for mapFunction.
+ * @param {*=} mapContext Context for mapFunction.
  * @return {Object|undefined} Object containing the ordered map of results.
  */
 React.Children.map;
@@ -1603,7 +1603,7 @@ React.Children.map;
 /**
  * @param {Object} children Children tree container.
  * @param {function(*, number)} mapFunction
- * @param {*} mapContext Context for mapFunction.
+ * @param {*=} mapContext Context for mapFunction.
  */
 React.Children.forEach;
 
@@ -1656,12 +1656,12 @@ React.addons.Perf.printWasted = function(measurements) {};
 
 /**
  * @typedef {{
- *     exclusive: Object.<string, number>,
- *     inclusive: Object.<string, number>,
- *     render: Object.<string, number>,
- *     counts: Object.<string, number>,
- *     writes: Object.<string, {type: string, time: number, args: Array}>,
- *     displayNames: Object.<string, {current: string, owner: string}>,
+ *     exclusive: !Object.<string, number>,
+ *     inclusive: !Object.<string, number>,
+ *     render: !Object.<string, number>,
+ *     counts: !Object.<string, number>,
+ *     writes: !Object.<string, {type: string, time: number, args: Array}>,
+ *     displayNames: !Object.<string, {current: string, owner: string}>,
  *     totalTime: number
  * }}
  */
