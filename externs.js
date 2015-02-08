@@ -1671,3 +1671,10 @@ React.addons.Perf.printWasted = function(measurements) {};
  * }}
  */
 React.addons.Perf.Measurement;
+
+React.addons.PureRenderMixin;
+React.addons.LinkedStateMixin;
+React.addons.TransitionGroup;
+React.addons.batchedUpdates;
+React.addons.cloneWithProps;
+React.addons.update;
