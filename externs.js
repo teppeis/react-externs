@@ -1678,3 +1678,10 @@ React.addons.TransitionGroup;
 React.addons.batchedUpdates;
 React.addons.cloneWithProps;
 React.addons.update;
+
+/**
+ * @param {Object} a
+ * @param {Object} b
+ * @return {Object}
+ */
+React.__spread = function(a, b) {};
