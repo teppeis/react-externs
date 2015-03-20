@@ -24,6 +24,12 @@ React.createClass = function(specification) {};
 React.createFactory = function(reactClass) {};
 
 /**
+ * @param {ReactComponent|DOMElement} componentOrElement
+ * @return {DOMElement} The root node of this element.
+ */
+React.findDOMNode = function(componentOrElement) {};
+
+/**
  * @param {*} componentClass
  * @return {boolean}
  * @deprecated
