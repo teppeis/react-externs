@@ -1,6 +1,5 @@
 {
-  "name": "react-externs",
-  "private": true,
+  "name": "react-externs-teppeis",
   "version": "0.13.1",
   "description": "Closure Compiler externs for Facebook React.js",
   "main": "externs.js",
