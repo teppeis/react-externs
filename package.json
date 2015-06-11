@@ -1,6 +1,5 @@
 {
   "name": "react-externs",
-  "private": true,
   "version": "0.13.1",
   "description": "Closure Compiler externs for Facebook React.js",
   "main": "externs.js",
@@ -29,6 +28,7 @@
     "gulp": "^3.6.2",
     "gulp-bump": "^0.1.8",
     "gulp-git": "^0.3.6",
+    "npm": "^2.11.1",
     "yargs": "^1.2.1"
   }
 }
