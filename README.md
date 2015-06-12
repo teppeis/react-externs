@@ -1,18 +1,18 @@
-react-externs
+react-externs [![npm](https://img.shields.io/npm/v/react-externs.svg)](https://www.npmjs.com/package/react-externs) ![Bower](https://img.shields.io/bower/v/react-externs.svg)
 =============
 
 Google Closure Compiler externs for Facebook React.js
 
-## How to use it with Bower
-
-```console
-$ bower install react-externs
-```
-
-## How to use it with NPM
+## How to use
 
 ```console
 $ npm install react-externs
+```
+
+or
+
+```console
+$ bower install react-externs
 ```
 
 ## Development
