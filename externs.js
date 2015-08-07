@@ -1686,6 +1686,12 @@ React.addons.cloneWithProps;
 React.addons.update;
 
 /**
+ * @param {Object} children
+ * @return {Object}
+ */
+React.addons.createFragment;
+
+/**
  * @param {Object} a
  * @param {Object} b
  * @return {Object}
