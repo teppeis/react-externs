@@ -1578,7 +1578,7 @@ React.PropTypes = {
    */
   oneOfType: function(typeCheckers) {},
   /**
-   * @param {function (new:Object, ...)} expectedClass
+   * @param {function (new:Object, ...?)} expectedClass
    * @return {React.ChainableTypeChecker}
    */
   instanceOf: function(expectedClass) {},
