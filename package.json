@@ -1,6 +1,6 @@
 {
   "name": "react-externs",
-  "version": "0.13.3",
+  "version": "0.13.4",
   "description": "Closure Compiler externs for Facebook React.js",
   "main": "externs.js",
   "scripts": {
